@@ -8,8 +8,7 @@
 html body {
   background-color: #1992d8; }
 
-ul {
-  display: flex;
+.estiloUl, ul {
   text-decoration: none;
   font-size: medium;
   padding: 15px;
@@ -17,6 +16,9 @@ ul {
   flex-direction: row;
   justify-content: space-evenly;
   font-weight: 700; }
+
+ul {
+  display: flex; }
 
 #divPadreGrid {
   display: grid;
@@ -26,11 +28,11 @@ ul {
   grid-template-areas: "A1 A1 A3" "A1 A1 A3"    "A1 A1 A3"; }
 
 #gridDiv1 {
+  margin-left: 20px;
+  margin-top: 40px;
   grid-area: A1;
   font-size: large;
   font-weight: 400;
-  margin-left: 20px;
-  margin-top: 40px;
   overflow-y: hidden; }
 
 #divImagen {
