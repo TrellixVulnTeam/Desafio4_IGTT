@@ -25,7 +25,9 @@ ul {
   grid-template-columns: 40% 40% 20%;
   height: 600px;
   grid-template-rows: 300px 300px 300px;
-  grid-template-areas: "A1 A1 A3" "A1 A1 A3"    "A1 A1 A3"; }
+  grid-template-areas: "A1 A1 A3"
+ "A1 A1 A3"   
+ "A1 A1 A3"; }
 
 #gridDiv1 {
   margin-left: 20px;
@@ -43,7 +45,8 @@ ul {
   grid-template-columns: 50% 50%;
   height: 800px;
   grid-template-rows: 400px 400px;
-  grid-template-areas: "G1 G1" "G2 G2"; }
+  grid-template-areas: "G1 G1"
+ "G2 G2"; }
 
 #divGaleriaUno {
   grid-area: G1;
